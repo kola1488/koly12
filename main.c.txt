@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+<<<<<<< HEAD
 int main(int argc, char argv)
+=======
+
+int main(int argc, char *argv)
+>>>>>>> 2a3624e172e5d0ef980e04bc60dcbb6cf3b167ec
 {
     printf("Enter your name: ");
     fgets(name, 255, stdin);
